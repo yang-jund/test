@@ -1,0 +1,57 @@
+/*reset*/
+html,body,h1,h2,h3,h4,h5,h6,p,div,ul,li,ol,dl,dt,dd,table,tr,td,input{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    height: auto;
+    /*让body里面元素在写百分比高度的时候可以撑起来区域，可以生效，还有就是body的背景图可以垂直居中*/
+}
+
+body{
+    font-size: 14px;
+    font-family: arial,verdana,"微软雅黑","黑体","宋体",sans-serif;
+    color: #333;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+img{
+    display: block;
+}
+
+/*解决img下面的间隔的问题*/
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.clearfix:after{
+    content: " ";
+    display: block;
+    height: 0px;
+    visibility: hidden;
+    clear:both;
+}
+
+.w1200{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}

@@ -1,0 +1,252 @@
+/*.nav0 .nav .w1200 .products .index_shouye{
+    color: #19bc64;
+}
+.nav0 .nav .w1200 ul li .shouye{
+    color: #333;
+}
+.nav0 .nav .w1200 ul li .shouye:hover{
+    color: #19bc64;
+} 
+.nav .xian{
+    width: 76px;
+    height: 2px;
+    background: #19bc64;
+    transform:translate(636px,83px);
+}
+*/
+.clearfix:after {
+    content:"."; display:block; height:0; clear:both; visibility:hidden;
+     }
+.clearfix {
+    display:block;
+    }
+.clear{
+ clear:both;
+ }/* 清除浮动*/
+
+
+/*css nav*/
+.banner{
+    width: 100%;
+    height: 960px;
+}
+.banner h2{
+    font-size: 30px;
+    color: #666;
+    line-height: 52px;
+    text-align: center;
+    margin-top: 24px;
+}
+.banner p{
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+}
+/*展示*/
+.show_box1{
+    width: 100%;
+    height: 1140px; 
+    background: url(../images/exhibition/ju-xing-kuang.png) no-repeat;
+    margin:60px auto ;
+}
+.show_box1 .img2{
+    margin-top: 46px;
+}
+.show .img3{
+    margin: 90px 0;
+}
+.show_box2{
+    width: 100%;
+    height: 390px;
+    margin-bottom: 90px;
+}
+.img4 img{
+    margin:0 auto 90px;
+}
+.custom_container{
+    width: 100%;
+    height: 580px;
+}
+.img_container{
+    margin-left: 26px;
+}
+.custom_container .custom_tab{
+    width: 320px;
+    margin-top: 60px; 
+}
+.custom_container p{
+    font-size: 30px;
+    color: #666;
+    line-height: 60px;
+}
+.custom_container ul{
+    width: 320px;
+    height: 68px;
+    margin: 20px 30px 30px 0px;
+}
+.custom_container ul li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 2px;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.custom_tab .color_title{
+    font-size: 22px;
+    color: #777;
+    line-height: 30px;
+}
+.custom_container .color_list_1{
+    background: #CECFC8;
+}
+.custom_container .color_list_2{
+    background: #A19587;
+}
+.custom_container .color_list_3{
+    background: #99B3BD;
+}
+.custom_container .color_list_4{
+    background: #C8C290;
+}
+.custom_container .color_list_5{
+    background: #C0A391;
+}
+.custom_container .color_list_6{
+    background: #B7C0A3;
+}
+.custom_container .color_list_7{
+    background: #DFDCD3;
+}
+.custom_container .color_list_8{
+    background: #4D4635;
+}
+.custom_container .color_list_9{
+    background: #CD9C64;
+}
+.custom_container .color_list_10{
+    background: #9E7E4F;
+}
+.custom_container .color_list_11{
+    background: #4D2917;
+}
+.custom_container .color_list_12{
+    background: #5B2F12;
+}
+.custom_tab .color_btn{
+    width: 210px;
+    height: 40px;
+    font-size: 16px;
+    color: #666;
+    line-height: 40px;
+    border: 1px #cac9c9 solid;
+    border-radius: 24px;
+    margin:46px 0;
+    text-align: center;
+/*    padding: 0px 34px;*/
+    box-sizing: border-box;
+}
+.custom_tab .color_text{
+    font-size: 16px;
+    color: #999;
+    line-height: 24px;
+}
+.custom_tab .color_btn:hover{
+    background: #19bc64;
+    border: 1px #19bc64 solid;
+    color: #fff;
+}
+/*同类推荐*/
+.show .title{
+    width: 100%;
+    height: 330px;
+    margin-top: 60px;
+    border: 1px #dad8d8 solid;
+}
+.show .title .title_item{
+    margin: 0 auto;
+}
+ .title_box1{
+    margin-left: 450px;
+ }
+.show .title .item{
+    display: inline-block;
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    color: #8b8b8b;
+    font-size: 22px;
+    margin-top: -30px;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+.show .title .item:hover{
+    color: #16bc64;
+    border-bottom: 2px #16bc64 solid;
+}
+.show .vline{
+    display: inline-block;
+    height: 36px;
+    position: relative;
+    top: 10px;
+    border-left: 1px solid #d9d9d9;
+    box-sizing: border-box;
+}
+.title .bx_viewport1{
+    width: 190px;
+    height: 220px;
+}
+.title .bx_viewport ul{
+    display: flex;
+}
+.title .bx_viewport1 img:nth-child(1){
+    margin-left: 20px;
+}
+.title .bx_viewport1 img{
+    margin: 0 auto;
+}
+.title .bx_viewport ul li{
+
+}
+.title .bx_viewport{
+    margin: 30px auto;
+}
+.title .bx_viewport span{
+    display: block;
+    font-size: 14px;
+    color: #555;
+    line-height: 48px;
+    text-align: center;
+}
+.bx_viewport2{
+    margin-top: 70px;
+}
+
+
+
+
+.weibu_banner img{
+    width: 100%;
+    margin-top: 90px;
+}
+.nav0 .nav .w1200 .products .index_shouye{
+    color: #19bc64;
+}
+.nav0 .nav .w1200 ul li .shouye{
+    color: #333;
+}
+.nav0 .nav .w1200 ul li .shouye:hover{
+    color: #19bc64;
+} 
+.nav .xian{
+    width: 76px;
+    height: 2px;
+    background: #19bc64;
+    transform:translate(636px,83px);
+}
+.nav ul li.products>a{
+    color: #19bc64;
+}

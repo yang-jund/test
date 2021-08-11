@@ -1,0 +1,153 @@
+/*.nav0 .nav .w1200 .products .index_shouye{
+    color: #19bc64;
+}
+.nav0 .nav .w1200 ul li .shouye{
+    color: #333;
+}
+.nav0 .nav .w1200 ul li .shouye:hover{
+    color: #19bc64;
+} 
+.nav .xian{
+    width: 76px;
+    height: 2px;
+    background: #19bc64;
+    transform:translate(636px,83px);
+}
+*/
+.nav .xian{
+    transform:translate(636px,83px);
+}
+.nav ul li.products>a{
+    color: #19bc64;
+}
+
+
+.banner{
+    width: 96%;
+    margin: 0 auto;
+}
+.content{
+    width: 1200px;
+    height: 2300px;
+    background: #ececec;
+    margin: 0 auto;
+}
+.filter_wrap{
+    width: 138px;
+    height: 2300px;
+    background: #fff;
+    padding-right: 10px;
+}
+.filter-item{
+    margin: 40px auto;
+}
+.filter-item .filter-title{
+    font-size: 16px;
+    display: block;
+    height: 30px;
+    border-bottom: 1px solid #d2d2d2;
+    width: 100%;
+    margin-bottom: 18px;
+}
+.filter-item .filter-title span{
+    line-height: 39px;
+    display: block;
+    color: #666;
+}
+.parent{
+    height: 39px;
+}
+.parent .title{
+    font-size: 14px;
+    color: #666;
+    line-height: 39px;
+}
+.jiaicon{
+    display: block;
+    margin-top: 15px;
+}
+.three_item{
+    margin:20px 28px;
+    line-height: 33px;  
+}
+.parent .title1{
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+}
+.filter-item1{
+    height: 670px;
+}
+/*good list */
+/*.good_list{
+    width: 1050px;
+
+}*/
+.good_title{
+    height: 60px;
+/*    width: 784px;*/
+    margin: 0 auto;
+    display: block;
+}
+.good_title h4,.good_title span{
+    margin: 40px 50px;
+}
+.good_title span{
+    width: 100px;
+    line-height: 24px;
+    border-bottom: 2px #999 solid;
+}
+.good_title span img{
+    float: right;
+    margin-top: 10px;
+}
+.products_list{
+    width: 980px;
+    margin-right: 40px; 
+}
+.products_list ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products_list ul li{
+    width: 222px;
+    height: 304px;
+    background: #fff;
+    margin: 20px 0 20px 20px;
+}
+.products_list ul li img{
+    margin: 14px auto;
+}
+.products_list ul li p{
+    font-size: 12px;
+    color: #666;
+    margin: 14px;
+    line-height: 14px; 
+}
+/*.products_list ul li:nth-child(1){
+    margin-left: 30px;
+}*/
+.products_list ul li:hover{
+    box-shadow: 0 0 10px #999;
+}
+.dibu_text{
+    width: 200px;
+    height: 60px;
+    margin-right: 400px;
+}
+.dibu_text p{
+    display: block;
+    font-size: 18px;
+    color: #666;
+    line-height: 40px;
+    border: 1px #999 solid;
+    padding: 4px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+.dibu_text p:hover{
+    border: 1px #16bc64 solid;
+    background: #16bc64;
+    color: #fff;
+}

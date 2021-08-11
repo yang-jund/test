@@ -1,0 +1,356 @@
+.nav0{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 5;
+}
+.nav{
+    position: relative;
+    /*position: fixed;*/
+    width: 100%;
+    height: 85px;
+    background: #fff;
+}
+.nav .logo{
+    width: 64px;
+    height: 40px;
+    margin-top: 22px;
+
+}
+.nav .logo a{
+    display: block;
+    width: 64px;
+    height: 40px;
+    background: url(../images/nav/logonew.png) no-repeat center;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content:flex-end;
+    align-itens:center; 
+}
+.nav ul li{
+    margin-top:22px;
+}
+.nav ul li>a{
+    display: block;
+    width: 84px;
+    height: 44px;
+    font-size: 16px;
+    margin:0 12px;
+    line-height: 44px;
+    text-align: center;
+    transition:all 0.5s ease;
+}
+.nav ul li.news>a{
+    color: #19bc64;/*所在页面*/
+}
+.nav ul li.about,.nav ul li.products,.nav ul li.reservation,.nav ul li.news,.nav ul li.service,.nav ul li.contact{   
+    height: 60px;    
+}
+.nav ul li.about .about-con,.nav ul li.products .products-con,.nav ul li.reservation .reservation-con,.nav ul li.news .news-con,.nav ul li.service .service-con{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height:84px;
+    background: rgba(0,0,0,.5);
+    text-align:center;
+    z-index: -10;
+    transition:all .5s ease-in;
+}
+.nav ul li.about ul,.nav ul li.products ul,.nav ul li.reservation ul,.nav ul li.news ul,.nav ul li.service ul,.nav ul li.contact ul{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform:translate(-50%,0);
+}
+.nav ul li.about ul li,.nav ul li.products ul li,.nav ul li.reservation ul li,.nav ul li.news ul li,.nav ul li.service ul li,.nav ul li.contact ul li{
+    display: inline-block;
+}
+.nav ul li.about ul a,.nav ul li.products ul a,.nav ul li.reservation ul a,.nav ul li.news ul a,.nav ul li.service ul a,.nav ul li.contact ul a{
+    color: #fff;
+    transition:all 0.5s ease;
+}
+.nav .sousuo{
+    width: 20px;
+    height: auto;
+    background: url(../images/nav/search.png) no-repeat center;
+    margin: 0 0 0 20px;
+}
+.nav .sousuo a{
+    display: block;
+    width: 100%;
+    height: 84px;
+    margin: 0;
+}
+.nav ul li.about:hover .about-con,.nav ul li.products:hover .products-con,.nav ul li.reservation:hover .reservation-con,.nav ul li.news:hover .news-con,.nav ul li.service:hover .service-con,.nav ul li.contact:hover .contact-con{
+  
+    top: 84px;
+}
+.nav ul li.about ul a:hover,.nav ul li.products ul a:hover,.nav ul li.reservation ul a:hover,.nav ul li.news ul a:hover,.nav ul li.service ul a:hover,.nav ul li.contact ul a:hover{
+    color: #19bc64;
+}
+.nav ul li.about:hover>a,.nav ul li.products:hover>a,.nav ul li.reservation:hover>a,.nav ul li.news:hover>a,.nav ul li.service:hover>a,.nav ul li.contact:hover>a,.nav ul li:hover a{
+    color:#19bc64;
+} 
+.nav .xian{
+    width: 76px;
+    height: 2px;
+    background: #19bc64;
+    transform:translate(850px,83px);/*下滑线的值*/
+}
+
+
+
+.banner{
+    width: 100%;
+    height: auto;
+    text-align:center;
+    margin-bottom: 39px;
+ }
+.nav_1{
+    width: 100%;
+    height:90px;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+.box1{
+    width: 1200px;
+    height:1116px;
+    margin:0 auto;
+    margin-bottom: 48px;
+}
+.box1 .product,.box1 .product1,.box1 .product2,.box1 .product3,.box1 .product4,
+.box1 .product5,.box1 .product6,.box1 .product7,.box1 .product8{
+    position: relative;
+    display: inline-block;
+    width: 382px;
+    height: 352px;
+    margin-right: 21px;
+    margin-bottom: 30px;
+}
+.box1 .product2{
+    margin-right:0;
+}
+.box1 .product5{
+    margin-right:0;
+}
+.box1 .product8{
+    margin-right:0;
+}
+
+
+.box1 .product .product_text,.box1 .product1 .product1_text,.box1 .product2 .product2_text,
+.box1 .product3 .product3_text,.box1 .product4 .product4_text,.box1 .product5 .product5_text,
+.box1 .product6 .product6_text,.box1 .product7 .product7_text,.box1 .product8 .product8_text{
+    position: absolute;
+    top: 218px;
+    left: 0;
+    width: 382px;
+    height: 132px;
+    transition:all 0.5s ease;
+    background-color: rgba(0,0,0,0.5);
+   
+}
+.box1 .product .product_text h2,.box1 .product1 .product1_text h2,.box1 .product2 .product2_text h2,
+.box1 .product3 .product3_text h2,.box1 .product4 .product4_text h2,.box1 .product5 .product5_text h2,
+.box1 .product6 .product6_text h2,.box1 .product7 .product7_text h2,.box1 .product8 .product8_text h2{
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left:41px;
+}
+.box1 .product .product_text p,.box1 .product1 .product1_text p,.box1 .product2 .product2_text p,
+.box1 .product3 .product3_text p,.box1 .product4 .product4_text p,.box1 .product5 .product5_text p,
+.box1 .product6 .product6_text p,.box1 .product7 .product7_text p,.box1 .product8 .product8_text p{
+    font-size: 14px;
+    color: #fff;
+    width: 300px;
+    height: 42px;
+    line-height: 20px;
+    margin-left: 41px;
+    overflow: hidden;
+    transition:all 0.5s ease;
+    
+}
+.box1 .product .product_text span,.box1 .product1 .product1_text span,.box1 .product2 .product2_text span,
+.box1 .product3 .product3_text span,.box1 .product4 .product4_text span,.box1 .product5 .product5_text span,
+.box1 .product6 .product6_text span,.box1 .product7 .product7_text span,.box1 .product8 .product8_text span{
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 265px;   
+}
+.box1 .product:hover .product_text,.box1 .product1:hover .product1_text,.box1 .product2:hover .product2_text,
+.box1 .product3:hover .product3_text,.box1 .product4:hover .product4_text,.box1 .product5:hover .product5_text,
+.box1 .product6:hover .product6_text,.box1 .product7:hover .product7_text,.box1 .product8:hover .product8_text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 382px;
+    height: 352px;   
+    background-color: rgba(0,0,0,0.5);  
+}
+.box1 .product:hover p,.box1 .product1:hover p,.box1 .product2:hover p,.box1 .product3:hover p,
+.box1 .product4:hover p,.box1 .product5:hover p,.box1 .product6:hover p,.box1 .product7:hover p,
+.box1 .product8:hover p{
+    width: 300px;
+    height:260px;
+    line-height: 20px;
+    margin-left: 41px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.fen{
+    width: 480px;
+    height: 36px;
+    margin: 0 auto;
+}
+.fen ul li{
+    width: 40px;
+    height: 36px;
+    border:1px #ccc solid;
+    display: inline-block;
+    font-size: 12px;
+    border-radius:3px; 
+    text-align: center;
+    line-height: 36px;
+    text-decoration: none;
+    transition:all 0.5s ease;
+}
+.fen ul li:hover{
+    background: #19bc64;
+    color: #fff;
+    border:1px solid #19bc64;
+}
+.nav-kuai{
+    width: 100%;
+    height: 85px;
+}
+
+/*css nav*/
+/*css bottom*/
+.bottom{
+    width: 100%;
+    height: 240px;
+    background: #202020;
+    box-sizing: border-box;
+    z-index: -10;
+}
+.bottom .bottom-text{
+    display: flex;
+}
+.bottom .bottom-text ul{
+    width: 164px;
+    font-size: 16px;
+    color: #e5e5e5;
+    padding: 20px 0 13px 0;
+}
+.bottom .bottom-text ul:nth-child(6){
+    width: 2px;
+    height: 100px;
+    background: #666;
+    transform:translate(0,40px);
+}
+.bottom .bottom-text ul:nth-child(7){
+    width: auto;
+}
+.bottom .bottom-text ul li:nth-child(1){
+    margin-bottom: 20px;
+}
+.bottom .bottom-text ul a{
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.bottom .bottom-text .lianxi{
+    margin-left: 32px;
+}
+.bottom .bottom-text .lianxi li{
+    font-size: 16px;
+    color: #ccc;
+}
+.bottom .bottom-text .lianxi li:nth-child(1){
+    color: #e5e5e5;
+}
+.bottom .bottom-text .lianxi li p{
+    display: inline-block;
+    width: auto;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 42px;
+    margin: 3px 0;
+}
+.bottom .bottom-text .lianxi li:nth-child(2) p{
+    background: url(../images/nav/dizhi.png) no-repeat left center;
+}
+.bottom .bottom-text .lianxi li:nth-child(3) p{
+    background: url(../images/nav/dianhua.png) no-repeat left center;
+}
+.bottom .bottom-text .lianxi li:nth-child(4) p{
+    background: url(../images/nav/wangzhi.png) no-repeat left center;
+}
+.bottom .bottom-end{
+    width: 100%;
+    height: 48px;
+    border-top:2px solid #666;
+}
+.bottom .bottom-end{
+    font-size: 0;
+}
+.bottom .bottom-end p{
+    font-size: 12px;
+    color: #999;
+    line-height: 48px;
+}
+.bottom .bottom-end span{
+    color: #999;
+    font-size: 14px;
+    line-height: 48px;
+    vertical-align: middle;
+}
+.bottom .bottom-end img{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.bottom .bottom-end a{
+    display:inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 4px;
+}
+.bottom .bottom-end .bottom-wb{
+    background: url(../images/nav/wb01.png) no-repeat center;
+    background-size: 94%;
+}
+.bottom .bottom-end .bottom-tx{
+    background: url(../images/nav/tx01.png) no-repeat center;
+    background-size: 94%;
+}
+.bottom .bottom-end .bottom-wx{
+    background: url(../images/nav/wx01.png) no-repeat center;
+    background-size: 94%;
+}
+.bottom .bottom-end .bottom-qq{
+    background: url(../images/nav/qq01.png) no-repeat center;
+    background-size: 94%;
+}
+.bottom .bottom-text ul a:hover{
+    color: #19bc64;
+}
+.bottom .bottom-end img:hover{
+    opacity: 0;
+}

@@ -1,0 +1,585 @@
+.nav0{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 5;
+}
+.nav{
+    position: relative;
+    /*position: fixed;*/
+    width: 100%;
+    height: 85px;
+    background: #fff;
+}
+.nav .logo{
+    width: 64px;
+    height: 40px;
+    margin-top: 22px;
+
+}
+.nav .logo a{
+    display: block;
+    width: 64px;
+    height: 40px;
+    background: url(../images/nav/logonew.png) no-repeat center;
+}
+.nav ul{
+    display: flex;
+    justify-content:flex-end;
+    align-itens:center; 
+}
+.nav ul li{
+    margin-top:22px;
+}
+.nav ul li>a{
+    display: block;
+    width: 84px;
+    height: 44px;
+    font-size: 16px;
+    margin:0 12px;
+    line-height: 44px;
+    text-align: center;
+    transition:all 0.5s ease;
+}
+.nav ul a[href^="service"]{
+    color: #19bc64;
+}
+.nav ul li.about,.nav ul li.products,.nav ul li.reservation,.nav ul li.news,.nav ul li.service,.nav ul li.contact{   
+    height: 60px;    
+}
+.nav ul li.about .about-con,.nav ul li.products .products-con,.nav ul li.reservation .reservation-con,.nav ul li.news .news-con,.nav ul li.service .service-con{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height:84px;
+    background: rgba(0,0,0,.5);
+    text-align:center;
+    z-index: -10;
+    transition:all .5s ease-in;
+}
+.nav ul li.about ul,.nav ul li.products ul,.nav ul li.reservation ul,.nav ul li.news ul,.nav ul li.service ul,.nav ul li.contact ul{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform:translate(-50%,0);
+}
+.nav ul li.about ul li,.nav ul li.products ul li,.nav ul li.reservation ul li,.nav ul li.news ul li,.nav ul li.service ul li,.nav ul li.contact ul li{
+    display: inline-block;
+}
+.nav ul li.about ul a,.nav ul li.products ul a,.nav ul li.reservation ul a,.nav ul li.news ul a,.nav ul li.service ul a,.nav ul li.contact ul a{
+    color: #fff;
+    transition:all 0.5s ease;
+}
+.nav .sousuo{
+    width: 20px;
+    height: auto;
+    background: url(../images/nav/search.png) no-repeat center;
+    margin: 0 0 0 20px;
+}
+.nav .sousuo a{
+    display: block;
+    width: 100%;
+    height: 84px;
+    margin: 0;
+}
+.nav .xian{
+    width: 76px;
+    height: 2px;
+    background: #19bc64;
+    transform: translate(960px,83px);
+}
+.nav ul li.about:hover .about-con,.nav ul li.products:hover .products-con,.nav ul li.reservation:hover .reservation-con,.nav ul li.news:hover .news-con,.nav ul li.service:hover .service-con,.nav ul li.contact:hover .contact-con{
+  
+    top: 84px;
+}
+.nav ul li.about ul a:hover,.nav ul li.products ul a:hover,.nav ul li.reservation ul a:hover,.nav ul li.news ul a:hover,.nav ul li.service ul a:hover,.nav ul li.contact ul a:hover,.nav ul li>a:hover{
+    color: #19bc64;
+}
+.nav ul li.about:hover>a,.nav ul li.products:hover>a,.nav ul li.reservation:hover>a,.nav ul li.news:hover>a,.nav ul li.service:hover>a,.nav ul li.contact:hover>a{
+    color:#19bc64;
+} 
+.nav-kuai{
+    width: 100%;
+    height: 85px;
+}
+
+/*css nav*/
+/*css banner*/
+.banner{
+    width: 100%;
+    height: 400px;
+    padding: 114px 0 0 0;
+    background: url(../images/service/banner.png) no-repeat center;
+    box-sizing: border-box;
+}
+.banner h3{
+    font-size: 62px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 632px;
+    line-height: 106px
+}
+.banner p{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 632px;
+}
+/*css concept*/
+.concept{
+    width: 100%;
+    height: auto;
+    margin-bottom: 72px;
+}
+.concept .concept-title{
+    width: 369px;
+    height: auto;
+    margin: 60px auto;
+}
+.concept .concept-title .title-con{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+.concept .concept-title .title-xian{
+    width: 92px;
+    height: 1px;
+    background: #999;
+    margin: 18px 0 0 0 ;
+}
+.concept .concept-title h3{
+    font-size: 24px;
+    color: #333;
+    margin: 0 10px 0 10px;
+}
+.concept p{
+    width: 932px;
+    text-align: center;
+    margin: 0 auto;
+    color: #999;
+    margin-bottom: 88px;
+}
+.concept .concept-banner{
+    width: 1200px;
+    height: auto;
+    background: #000;
+    position: relative;
+}
+.concept .concept-banner img{
+    width: 100%;
+    height: auto;
+    transition:all .5s ease;
+}
+.concept .concept-banner p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 932px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    height: auto;
+    padding: 20px;
+    transform:translate(-50%,-50%);
+    transition:all .5s ease;
+    opacity: 0;
+}
+.concept .concept-banner:hover img{
+    opacity: .6;
+}
+.concept .concept-banner:hover p{
+    opacity: 1;
+}
+/*css support*/
+.support{
+    width: 100%;
+    height: 792px;
+    background: url(../images/service/support-bg.png);
+}
+.support .support-title{
+    width: 369px;
+    height: auto;
+    margin: 0 auto;
+    padding-top:60px;
+}
+.support .support-title .title-con{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+.support .support-title .title-xian{
+    width: 92px;
+    height: 1px;
+    background: #999;
+    margin: 18px 0 0 0 ;
+}
+.support .support-title h3{
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px 0 10px;
+}
+.support .support-con ul{
+    display: flex;
+    margin-top: 88px;
+}
+.support .support-con ul li{
+    width: 256px;
+    height: auto;
+    margin-right: 58px;
+}
+.support .support-con ul li:nth-child(4){
+    margin-right: 0;
+}
+.support .support-con ul li .support-icon{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 52px;
+}
+.support .support-con ul li:nth-child(1) .support-icon{
+    background: url(../images/service/support-icon1.png) no-repeat center;
+    transition:all .5s ease;
+}
+.support .support-con ul li:nth-child(2) .support-icon{
+    background: url(../images/service/support-icon2.png) no-repeat center;
+    transition:all .5s ease;
+}
+.support .support-con ul li:nth-child(3) .support-icon{
+    background: url(../images/service/support-icon3.png) no-repeat center;
+    transition:all .5s ease;
+}
+.support .support-con ul li:nth-child(4) .support-icon{
+    background: url(../images/service/support-icon4.png) no-repeat center;
+    transition:all .5s ease;
+}
+.support .support-con ul li h4{
+    font-size: 20px;
+    color: #fff;
+    transition:all .5s ease;
+}
+.support .support-con ul li .support-xian{
+    width: 254px;
+    height: 3px;
+    background: #999;
+    margin: 15px 0 22px 0;
+}
+.support .support-con ul li p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    margin-top: 44px;
+}
+.support .support-con ul li:nth-child(1):hover h4{
+    text-align: center;
+    font-size: 36px;
+}
+.support .support-con ul li:nth-child(2):hover h4{
+    text-align: center;
+    font-size: 36px;
+}
+.support .support-con ul li:nth-child(3):hover h4{
+    text-align: center;
+    font-size: 36px;
+}
+.support .support-con ul li:nth-child(4):hover h4{
+    text-align: center;
+    font-size: 36px;
+}
+.support .support-con ul li:nth-child(1):hover .support-icon{
+    background: url(../images/service/support-icon01.png) no-repeat center;
+}
+.support .support-con ul li:nth-child(2):hover .support-icon{
+    background: url(../images/service/support-icon02.png) no-repeat center;
+}
+.support .support-con ul li:nth-child(3):hover .support-icon{
+    background: url(../images/service/support-icon03.png) no-repeat center;
+}
+.support .support-con ul li:nth-child(4):hover .support-icon{
+    background: url(../images/service/support-icon04.png) no-repeat center;
+}
+/*css commitment*/
+.commitmen{
+    width: 100%;
+    height: 792px;
+}
+.commitment .commitment-title{
+    width: 481px;
+    height: auto;
+    margin: 0 auto;
+    padding-top:60px;
+}
+.commitment .commitment-title img{
+    margin: 0 auto;
+}
+.commitment .commitment-title .title-con{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+}
+.commitment .commitment-title .title-xian{
+    width: 92px;
+    height: 1px;
+    background: #999;
+    margin: 18px 0 0 0 ;
+}
+.commitment .commitment-title .title-con h3{
+    font-size: 24px;
+    color: #333;
+    margin: 0 10px 0 10px;
+}
+.commitment .commitment-con{
+    width: 100%;
+    height: auto;
+}
+.commitment .commitment-con ul{
+    width: 100%;
+    height: auto;
+    font-size: 0;
+}
+.commitment .commitment-con ul li{
+    display: inline-block;
+    width: 33.33%;
+    height: auto;
+    vertical-align: top;
+}
+.commitment .commitment-con ul li .commitment-icon{
+    width: 80px;
+    height: 80px;
+    margin: 45px auto 12px;
+    transition:all 0.5s ease;
+}
+.commitment .commitment-con ul li:nth-child(1) .commitment-icon{
+    background: url(../images/service/commitment-icon1.png) no-repeat center;
+}
+.commitment .commitment-con ul li:nth-child(2) .commitment-icon{
+    background: url(../images/service/commitment-icon2.png) no-repeat center;
+}
+.commitment .commitment-con ul li:nth-child(3) .commitment-icon{
+    background: url(../images/service/commitment-icon3.png) no-repeat center;
+}
+.commitment .commitment-con ul li:nth-child(4) .commitment-icon{
+    background: url(../images/service/commitment-icon4.png) no-repeat center;
+}
+.commitment .commitment-con ul li:nth-child(5) .commitment-icon{
+    background: url(../images/service/commitment-icon5.png) no-repeat center;
+}
+.commitment .commitment-con ul li:nth-child(6) .commitment-icon{
+    background: url(../images/service/commitment-icon6.png) no-repeat center;
+}
+.commitment .commitment-con ul li h4{
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    transition:all .5s ease;
+}
+.commitment .commitment-con ul li .commitment-xian{
+    width: 100px;
+    height: 2px;
+    background: #999;
+    margin: 0 auto 20px;
+    transition:all .5s ease;
+}
+.commitment .commitment-con ul li p{
+    width: 342px;
+    height: 40px;
+    font-size: 14px;
+    color: #666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 20px auto;
+    transition:all .5s ease;
+}
+.commitment .commitment-con ul li:hover p{
+    height: auto;
+}
+.commitment .commitment-con ul li:hover .commitment-xian{
+    width: 100%;
+    transform:translate(0,40px);
+    background: #19bc64
+}
+.commitment .commitment-con ul li:hover h4{
+    font-size: 24px;
+    transform:translate(0,-30px);
+}
+.commitment .commitment-con ul li:hover .commitment-icon{
+    background-size: 75px;
+}
+/*css warranty*/
+.warranty{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url(../images/service/warranty-bg.png) no-repeat center;
+}
+.warranty .warranty-con{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 600px;
+    background: rgba(26,26,26,.7);
+}
+.warranty .warranty-con .warranty-title{
+    width: 100%;
+    height: auto;
+    padding: 24px 0 0 40px;
+}
+.warranty .warranty-con .warranty-title .warranty-xian{
+    width: 100%;
+    height: 1px;
+    background: #999;
+    margin: 30px 0 ;
+}
+.warranty .warranty-con .warranty-title h3{
+    font-size: 24px;
+    color: #fff;
+}
+.warranty .warranty-con form{
+    width: 520px;
+    height: auto;
+    font-size: 18px;
+    color:#e5e5e5;
+    text-align: right;
+    margin-left: 180px;
+}
+.warranty .warranty-con form input{
+    display:inline-block;
+    width: 390px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.warranty .warranty-con form textarea{
+    width: 390px;
+    height: 100px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+.warranty .warranty-con form input:nth-of-type(5){
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    background: #19bc64;
+    border-radius: 20px;
+    border:none;
+}
+.warranty .warranty-con form input:nth-of-type(5):hover{
+    font-size: 16px;
+    background: rgba(0,0,0,0);
+    border:2px solid #19bc64;
+}
+/*css bottom*/
+.bottom{
+    width: 100%;
+    height: 240px;
+    background: #202020;
+    box-sizing: border-box;
+    z-index: -10;
+}
+.bottom .bottom-text{
+    display: flex;
+}
+.bottom .bottom-text ul{
+    width: 164px;
+    font-size: 16px;
+    color: #e5e5e5;
+    padding: 20px 0 13px 0;
+}
+.bottom .bottom-text ul:nth-child(6){
+    width: 2px;
+    height: 100px;
+    background: #666;
+    transform:translate(0,40px);
+}
+.bottom .bottom-text ul:nth-child(7){
+    width: auto;
+}
+.bottom .bottom-text ul li:nth-child(1){
+    margin-bottom: 20px;
+}
+.bottom .bottom-text ul a{
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.bottom .bottom-text .lianxi{
+    margin-left: 32px;
+}
+.bottom .bottom-text .lianxi li{
+    font-size: 16px;
+    color: #ccc;
+}
+.bottom .bottom-text .lianxi li:nth-child(1){
+    color: #e5e5e5;
+}
+.bottom .bottom-text .lianxi li p{
+    display: inline-block;
+    width: auto;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 42px;
+    margin: 3px 0;
+}
+.bottom .bottom-text .lianxi li:nth-child(2) p{
+    background: url(../images/nav/dizhi.png) no-repeat left center;
+}
+.bottom .bottom-text .lianxi li:nth-child(3) p{
+    background: url(../images/nav/dianhua.png) no-repeat left center;
+}
+.bottom .bottom-text .lianxi li:nth-child(4) p{
+    background: url(../images/nav/wangzhi.png) no-repeat left center;
+}
+.bottom .bottom-end{
+    width: 100%;
+    height: 48px;
+    border-top:2px solid #666;
+}
+.bottom .bottom-end{
+    font-size: 0;
+}
+.bottom .bottom-end p{
+    font-size: 12px;
+    color: #999;
+    line-height: 48px;
+}
+.bottom .bottom-end span{
+    color: #999;
+    font-size: 14px;
+    line-height: 48px;
+    vertical-align: middle;
+}
+.bottom .bottom-end img{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.bottom .bottom-end a{
+    display:inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 4px;
+}
+.bottom .bottom-end .bottom-wb{
+    background: url(../images/nav/wb01.png) no-repeat center;
+    background-size: 94%;
+}
+.bottom .bottom-end .bottom-tx{
+    background: url(../images/nav/tx01.png) no-repeat center;
+    background-size: 94%;
+}
+.bottom .bottom-end .bottom-wx{
+    background: url(../images/nav/wx01.png) no-repeat center;
+    background-size: 94%;
+}
+.bottom .bottom-end .bottom-qq{
+    background: url(../images/nav/qq01.png) no-repeat center;
+    background-size: 94%;
+}
+.bottom .bottom-text ul a:hover{
+    color: #19bc64;
+}
+.bottom .bottom-end img:hover{
+    opacity: 0;
+}

@@ -1,0 +1,252 @@
+/*reset*/
+html,body,h1,h2,h3,h4,h5,h6,p,div,ul,li,ol,dl,dt,dd,table,tr,td,input{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    height: auto;
+    min-width: 1800px;
+    /*让body里面元素在写百分比高度的时候可以撑起来区域，可以生效，还有就是body的背景图可以垂直居中*/
+}
+
+body{
+    font-size: 14px;
+    font-family: arial,verdana,"微软雅黑","黑体","宋体",sans-serif;
+    color: #333;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+img{
+    display: block;
+}
+
+/*解决img下面的间隔的问题*/
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.clearfix:after{
+    content: " ";
+    display: block;
+    height: 0px;
+    visibility: hidden;
+    clear:both;
+}
+
+.w1200{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+/* 页面主体 */
+.wrapper {
+    box-sizing: border-box;
+    margin-top: 85px;
+    min-width: 1800px;
+}
+.banner {
+    width: 100%;
+    height: 624px;
+    background: url(../images/about/b1.png) no-repeat;
+    background-size: 1900px 624px;
+}
+.con-a {
+    text-align: center;
+    margin: 40px 0;
+}
+.con-a .con-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+.con-a-top .title-img {
+    height: 60px;
+    background: url(../images/about/bt1.png) no-repeat;
+    background-size: 449px 30px;
+    background-position: center;
+}
+.title-h {
+    padding: 8px 0;
+}
+.con-a-center {
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+.con-a-center .left-a {
+    width: 369px;
+    height: 436px;
+    border: 2px solid #666;
+}
+.con-a-center .left-b div{
+    width: 369px;
+    height: 436px;
+    background: url(../images/about/b111.png) no-repeat center;
+    background-size: 369px 436px;
+    
+    transition: all 0.6s;
+}
+.con-a-center .left-b {
+    width: 369px;
+    height: 436px;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.con-a-center .left-b div:hover {
+    transform:scale(1.2);
+}
+.con-a-center .cen-right {
+    width: 578px;
+    height: 472px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    
+}
+.con-a-center .cen-left {
+    position: relative;
+    width: 423px;
+    height: 472px;
+    margin-left: 122px;
+}
+.cen-right .right-a {
+    background: url(../images/about/wz1.png) no-repeat;
+    height: 115px;
+    margin-bottom: 20px;
+}
+.con-a-top {
+    padding-bottom: 30px;
+}
+.con-b-top .title-img {
+    background: url(../images/about/bt2.png) no-repeat center;
+    height: 60px;
+}
+.con-b .con-b-center {
+    background: url(../images/about/b2.png) no-repeat center;
+    height: 623px;
+    background-size: 1916px 623px;
+    margin-bottom: 74px;
+}
+.con-b {
+    position: relative;
+}
+.con-b .con-b-top {
+    padding-bottom: 30px;
+}
+/* .con-b .title-h {
+    padding: 8px 0;
+} */
+.title-h h4 {
+    text-align: center;
+    font-size: 24px;
+}
+.con-b .cen-right {
+    width: 485px;
+    height: 376px;
+    position: absolute;
+    bottom: 158px;
+    right: 350px;
+    background: url(../images/about/k2.png) no-repeat center;
+    /* background-size: 485px 376px; */
+    background-size: 485px 376px;
+    box-sizing: border-box;
+    padding: 40px 32px;
+}
+@media screen and (max-width:1800px){
+    .con-b .cen-right {
+        right: 300px;
+    }
+}
+.con-b .right-a {
+    background: url(../images/about/wz2.png) no-repeat;
+    height: 29px;
+    margin-bottom: 50px;
+}
+.right-b {
+    color: #666;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    transition: all 0.5s;
+}
+.right-b:hover {
+    color: rgb(25,188,100);
+}
+.con-c-top .title-img {
+    background: url(../images/about/bt3.png) no-repeat center;
+    height: 60px;
+}
+.con-c .swiper-container {
+    /* width: 300px;
+    height: 200px; */
+}
+.con-c-center {
+    /* width: 600px; */
+    /* height: 400px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.con-c .swiper-button-prev {
+    width: 44px;
+    height: 44px;
+    background: url(../images/about/jt2.png) no-repeat center;
+    background-size: 44px 44px;
+    left: 0;
+}
+.con-c .swiper-button-next {
+    width: 44px;
+    height: 44px;
+    background: url(../images/about/jt1.png) no-repeat center;
+    background-size: 44px 44px;
+    right: 0;
+}
+.sw-box {
+    /* width: 268px; */
+    box-sizing: border-box;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.sw-box h4 {
+    line-height: 40px;
+    border-bottom: 1px solid;
+    font-size: 18px;
+}
+.sw-box p {
+    font-size: 16px;
+    color: #666;
+    padding: 20px 0;
+}
+.con-c .sw-con {
+    position: relative;
+    width: 1000px;
+    box-sizing: content-box;
+    padding: 0 100px;
+}
+.none {
+    display: none;
+}
+.con-c-top {
+    margin-bottom: 14px;
+}
